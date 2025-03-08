@@ -1,4 +1,4 @@
-version: '3'
+version: '3.8'
 
 
 
@@ -6,7 +6,7 @@ services:
 
   sleek-airflow:
 
-    image: learnairflow:latest
+    image: mlops-airflow:latest
 
     
 

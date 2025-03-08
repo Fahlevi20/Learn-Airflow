@@ -1,0 +1,18 @@
+[project]
+name = "learn-airflow"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "fahlevi20",email = "rozakalfi@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9,<3.13"
+dependencies = [
+    "pandas>=2.2.3, <3.0.0",
+    "scikit-learn>=1.6.1, <2.0.0",
+    "apache-airflow>=2.10.5, <3.0.0"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
