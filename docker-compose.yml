@@ -23,3 +23,10 @@ services:
 
 
     command: airflow standalone
+    
+    deploy:
+      resources:
+        limits:
+          memory: 1.5g
+          cpus: 2
+    
